@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<ClinVarSet ID="2437849">
+  <RecordStatus>current</RecordStatus>
+  <Title>p.(=) AND Tuberous sclerosis syndrome</Title>
+  <ReferenceClinVarAssertion DateCreated="2013-09-16" DateLastUpdated="2014-05-30" ID="144363">
+    <ClinVarAccession Acc="RCV000054892" Version="1" Type="RCV" DateUpdated="2014-05-31"/>
+    <RecordStatus>current</RecordStatus>
+    <ClinicalSignificance>
+      <ReviewStatus>not classified by submitter</ReviewStatus>
+      <Description>not provided</Description>
+    </ClinicalSignificance>
+    <Assertion Type="variation to disease"/>
+    <ObservedIn>
+      <Sample>
+        <Origin>germline</Origin>
+        <Species TaxonomyId="9606">human</Species>
+        <AffectedStatus>yes</AffectedStatus>
+      </Sample>
+      <Method>
+        <MethodType>literature only</MethodType>
+      </Method>
+      <ObservedData ID="2098651">
+        <Attribute integerValue="1" Type="VariantAlleles"/>
+      </ObservedData>
+    </ObservedIn>
+    <MeasureSet Type="Variant" ID="64714">
+      <Measure Type="Variation" ID="75643">
+        <Name>
+          <ElementValue Type="preferred name">p.(=)</ElementValue>
+        </Name>
+        <AttributeSet>
+          <Attribute Type="HGVS, non-validated">p.(=)</Attribute>
+        </AttributeSet>
+        <AttributeSet>
+          <Attribute Type="Location">Exon 3</Attribute>
+        </AttributeSet>
+        <CytogeneticLocation>9q34</CytogeneticLocation>
+        <MeasureRelationship Type="variant in gene">
+          <Name>
+            <ElementValue Type="Preferred">tuberous sclerosis 1</ElementValue>
+          </Name>
+          <Symbol>
+            <ElementValue Type="Preferred">TSC1</ElementValue>
+          </Symbol>
+          <AttributeSet>
+            <Attribute dateValue="2012-04-19" Type="Haploinsufficiency">Sufficient evidence for dosage pathogenicity</Attribute>
+            <Citation>
+              <URL>http://www.ncbi.nlm.nih.gov/projects/dbvar/ISCA/isca_gene.cgi?sym=TSC1</URL>
+            </Citation>
+            
+          </AttributeSet>
+          <AttributeSet>
+            <Attribute dateValue="2012-04-19" Type="Triplosensitivity">No evidence available</Attribute>
+            <Citation>
+              <URL>http://www.ncbi.nlm.nih.gov/projects/dbvar/ISCA/isca_gene.cgi?sym=TSC1</URL>
+            </Citation>
+          </AttributeSet>
+          <SequenceLocation Assembly="GRCh37" display_stop="135820019" display_start="135766734" Chr="9" Accession="NC_000009.11" start="135766734" stop="135820019" Strand="-"/>
+          <SequenceLocation Assembly="GRCh38" display_stop="132944706" display_start="132891347" Chr="9" Accession="NC_000009.12" start="132891347" stop="132944706" Strand="-"/>
+          <XRef ID="7248" DB="Gene"/>
+          <XRef Type="MIM" ID="605284" DB="OMIM"/>
+          <Comment DataSource="NCBI curation">This gene is cited in the ACMG recommendations of 2013 (PubMed 23788249) for reporting incidental findings in exons.</Comment>
+        </MeasureRelationship>
+        <Citation Type="general">
+          <ID Source="PubMed">15798777</ID>
+        </Citation>
+        <XRef ID="TSC1_00608" DB="Tuberous sclerosis database (TSC1)"/>
+      </Measure>
+      <Name>
+        <ElementValue Type="preferred name">p.(=)</ElementValue>
+      </Name>
+    </MeasureSet>
+    <TraitSet Type="Disease" ID="8139">
+      <Trait ID="15993" Type="Disease">
+        <Name>
+          <ElementValue Type="Preferred">Tuberous sclerosis syndrome</ElementValue>
+          <XRef ID="7199000" DB="SNOMED CT"/>
+        </Name>
+        <Symbol>
+          <ElementValue Type="Preferred">TSC</ElementValue>
+          <XRef Type="MIM" ID="191100" DB="OMIM"/>
+        </Symbol>
+        <Symbol>
+          <ElementValue Type="Alternate">TS</ElementValue>
+          <XRef Type="MIM" ID="191100" DB="OMIM"/>
+        </Symbol>
+        <AttributeSet>
+          <Attribute Type="public definition">Tuberous sclerosis complex (TSC) involves abnormalities of the skin (hypomelanotic macules, facial angiofibromas, shagreen patches, fibrous facial plaques, ungual fibromas); brain (cortical tubers, subependymal nodules [SENs] and subependymal giant cell astrocytomas [SEGAs], seizures, intellectual disability/developmental delay); kidney (angiomyolipomas, cysts, renal cell carcinomas); heart (rhabdomyomas, arrhythmias); and lungs (lymphangioleiomyomatosis [LAM]). CNS tumors are the leading cause of morbidity and mortality; renal disease is the second leading cause of early death.</Attribute>
+          <XRef ID="NBK1220" DB="GeneReviews"/>
+        </AttributeSet>
+        <AttributeSet>
+          <Attribute Type="keyword">Neoplasm</Attribute>
+        </AttributeSet>
+        <AttributeSet>
+          <Attribute Type="keyword">Hereditary cancer syndrome</Attribute>
+        </AttributeSet>
+        <Citation Type="practice guideline" Abbrev="Orphanet, 2007">
+          <URL>https://www.orpha.net/data/patho/Pro/en/Emergency_TuberousSclerosis.pdf</URL>
+          <CitationText>Orphanet, Tuberous sclerosis, 2007</CitationText>
+          <Error Accession="invalid">
+            	Something unexpected occurred
+          </Error>
+        </Citation>
+        <Citation Type="review" Abbrev="GeneReviews">
+          <ID Source="PubMed">20301399</ID>
+        </Citation>
+        <XRef ID="C0041341" DB="MedGen"/>
+      </Trait>
+    </TraitSet>
+  </ReferenceClinVarAssertion>
+  <ClinVarAssertion ID="143596">
+    <ClinVarSubmissionID localKey="TSC1_00608_TSC" title="NM_000368.4:-80-51del AND TSC" submitterDate="2013-08-09" submitter="Tuberous sclerosis database (TSC1)"/>
+    <ClinVarAccession Acc="SCV000083107" Version="1" Type="SCV" OrgID="500075" DateUpdated="2014-04-19"/>
+    <RecordStatus>current</RecordStatus>
+    <ClinicalSignificance>
+      <ReviewStatus>classified by single submitter</ReviewStatus>
+      <Description>not provided</Description>
+    </ClinicalSignificance>
+    <Assertion Type="variation to disease"/>
+    <ExternalID DB="Tuberous sclerosis database (TSC1)" ID="TSC1_00608"/>
+    <ObservedIn>
+      <Sample>
+        <Origin>germline</Origin>
+        <Species>human</Species>
+        <AffectedStatus>yes</AffectedStatus>
+      </Sample>
+      <Method>
+        <MethodType>literature only</MethodType>
+      </Method>
+      <ObservedData>
+        <Attribute Type="VariantAlleles">1</Attribute>
+      </ObservedData>
+    </ObservedIn>
+    <MeasureSet Type="Variant">
+      <Measure Type="Variation">
+        <AttributeSet>
+          <Attribute Type="HGVS">NM_000368.4:-80-51del</Attribute>
+        </AttributeSet>
+        <AttributeSet>
+          <Attribute Type="HGVS">p.(=)</Attribute>
+        </AttributeSet>
+        <AttributeSet>
+          <Attribute Type="Location">Exon 3</Attribute>
+        </AttributeSet>
+        <MeasureRelationship Type="variant in gene">
+          <Symbol>
+            <ElementValue Type="Preferred">TSC1</ElementValue>
+          </Symbol>
+        </MeasureRelationship>
+        <Citation Type="general">
+          <ID Source="PubMed">15798777</ID>
+        </Citation>
+      </Measure>
+    </MeasureSet>
+    <TraitSet Type="Disease">
+      <Trait Type="Disease">
+        <Name>
+          <ElementValue Type="Preferred">TSC</ElementValue>
+        </Name>
+      </Trait>
+    </TraitSet>
+  </ClinVarAssertion>
+</ClinVarSet>
+
